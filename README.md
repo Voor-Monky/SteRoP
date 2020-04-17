@@ -1,2 +1,2 @@
 # SteRoP
-Repozytorium do projektu Sterowniki Rootów na Politechnice Wrocławskiej
+Repozytorium do projektu Sterowniki Robotów na Politechnice Wrocławskiej
