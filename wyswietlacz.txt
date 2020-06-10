@@ -1,0 +1,57 @@
+int numerLCD(int numer){
+	switch(numer){
+	case -18: aDP(); bDP(); cDP(); bB(); bC(); cA(); cF(); cG(); cE(); cC(); cD(); cB(); break;
+	case -17: aDP(); bDP(); cDP(); bB(); bC(); cA(); cB(); cC(); break;
+	case -16: aDP(); bDP(); cDP(); bB(); bC(); cA(); cF(); cG(); cE(); cC(); cD(); break;
+	case -15: aDP(); bDP(); cDP(); bB(); bC(); cA(); cF(); cG(); cC(); cD(); break;
+	case -14: aDP(); bDP(); cDP(); bB(); bC(); cF(); cG(); cB(); cC(); break;
+	case -13: aDP(); bDP(); cDP(); bB(); bC(); cA(); cB(); cG(); cC(); cD(); break;
+	case -12: aDP(); bDP(); cDP(); bB(); bC(); cA(); cB(); cG(); cE(); cD(); break;
+	case -11: aDP(); bDP(); cDP(); bB(); bC(); cB(); cC(); break;
+	case -10: aDP(); bDP(); cDP(); bB(); bC(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case -9: aDP(); bDP(); cDP(); cA(); cF(); cG(); cC(); cD(); cB(); break;
+	case -8: aDP(); bDP(); cDP(); cA(); cF(); cG(); cE(); cC(); cD(); cB(); break;
+	case -7: aDP(); bDP(); cDP(); cA(); cB(); cC(); break;
+	case -6: aDP(); bDP(); cDP(); cA(); cF(); cG(); cE(); cC(); cD(); break;
+	case -5: aDP(); bDP(); cDP(); cA(); cF(); cG(); cC(); cD(); break;
+	case -4: aDP(); bDP(); cDP(); cF(); cG(); cB(); cC(); break;
+	case -3: aDP(); bDP(); cDP(); cA(); cB(); cG(); cC(); cD(); break;
+	case -2: aDP(); bDP(); cDP(); cA(); cB(); cG(); cE(); cD(); break;
+	case -1: aDP(); bDP(); cDP(); cB(); cC(); break;
+	case 0: bA(); bB(); bC(); bD(); bE(); bF(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case 1: cB(); cC(); break;
+	case 2: cA(); cB(); cG(); cE(); cD(); break;
+	case 3: cA(); cB(); cG(); cC(); cD(); break;
+	case 4: cF(); cG(); cB(); cC(); break;
+	case 5: cA(); cF(); cG(); cC(); cD(); break;
+	case 6: cA(); cF(); cG(); cE(); cC(); cD(); break;
+	case 7: cA(); cB(); cC(); break;
+	case 8: cA(); cF(); cG(); cE(); cC(); cD(); cB(); break;
+	case 9: cA(); cF(); cG(); cC(); cD(); cB(); break;
+	case 10: bB(); bC(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case 11: bB(); bC(); cB(); cC(); break;
+	case 12: bB(); bC(); cA(); cB(); cG(); cE(); cD(); break;
+	case 13: bB(); bC(); cA(); cB(); cG(); cC(); cD(); break;
+	case 14: bB(); bC(); cF(); cG(); cB(); cC(); break;
+	case 15: bB(); bC(); cA(); cF(); cG(); cC(); cD(); break;
+	case 16: bB(); bC(); cA(); cF(); cG(); cE(); cC(); cD(); break;
+	case 17: bB(); bC(); cA(); cB(); cC(); break;
+	case 18: bB(); bC(); cA(); cF(); cG(); cE(); cC(); cD(); cB(); break;
+	case 20: bA(); bB(); bG(); bE(); bD(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case 25: bA(); bB(); bG(); bE(); bD(); cA(); cF(); cG(); cC(); cD(); break;
+	case 30: bA(); bB(); bG(); bC(); bD(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case 35: bA(); bB(); bG(); bC(); bD(); cA(); cF(); cG(); cC(); cD(); break;
+	case 40: bF(); bG(); bB(); bC(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case 45: bF(); bG(); bB(); bC(); cA(); cF(); cG(); cC(); cD(); break;
+	case 50: bA(); bF(); bG(); bC(); bD(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case 55: bA(); bF(); bG(); bC(); bD(); cA(); cF(); cG(); cC(); cD(); break;
+	case 60: bA(); bF(); bG(); bE(); bC(); bD(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case 65: bA(); bF(); bG(); bE(); bC(); bD(); cA(); cF(); cG(); cC(); cD(); break;
+	case 70: bA(); bB(); bC(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case 75: bA(); bB(); bC(); cA(); cF(); cG(); cC(); cD(); break;
+	case 80: bA(); bF(); bG(); bE(); bC(); bD(); bB(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case 85: bA(); bF(); bG(); bE(); bC(); bD(); bB(); cA(); cF(); cG(); cC(); cD(); break;
+	case 90: bA(); bF(); bG(); bC(); bD(); bB(); cA(); cB(); cC(); cD(); cE(); cF(); break;
+	case 95: bA(); bF(); bG(); bC(); bD(); bB(); cA(); cF(); cG(); cC(); cD(); break;
+	}
+}
